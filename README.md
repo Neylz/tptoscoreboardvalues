@@ -15,7 +15,7 @@ There is only passives functions (no tick functions or loops with schedules) so 
 The destination coordinates are stored in only one scoreboard called `tpts_destination`. In `$x`, `$y` and `$z` score holders.
 So you can manualy change this values with the `/scoreboard` command.
 
-For exemple :
+For example :
 ```hs
 scoreboard players set $x tpts_destination 42
 scoreboard players set $y tpts_destination 100
@@ -25,7 +25,7 @@ scoreboard players set $z tpts_destination 69
 
 This datapack also include a relative option. If you activate this feature on one axis, when you will teleport the player or the entity, the destination coordinates of this axis will be ignored. This feature permits you a sort of `/tp 42 ~ 69`. Set the value of `$x_isRelative` to `1` if you want to use this on the `x` axis. Same thing for the 2 other.
 
-Exemple :
+Example :
 ```hs
 scoreboard players set $x tpts_destination 42
 scoreboard players set $y_isRelative tpts_destination 1
